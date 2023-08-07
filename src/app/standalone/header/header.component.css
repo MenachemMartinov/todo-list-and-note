@@ -1,0 +1,32 @@
+:host {
+  display: block;
+  height: 5vh;
+  width: 100vw;
+  background-color: yellowgreen;
+}
+:host .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 98%;
+  padding: 0 1rem;
+}
+:host .header h2 {
+  align-items: center;
+  height: 100%;
+  width: 20%;
+}
+:host .header .menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 20%;
+  list-style-type: none;
+}
+:host .header .menu li {
+  margin-inline: 5px;
+}
+:host .header .menu li .active-link {
+  font-weight: bold;
+}/*# sourceMappingURL=header.component.css.map */
